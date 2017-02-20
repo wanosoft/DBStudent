@@ -103,4 +103,8 @@ public class MainActivity extends AppCompatActivity{
         }
         db.close();
     }
+
+    public void rows(View v){
+        //Llamar activity Layouts
+    }
 }

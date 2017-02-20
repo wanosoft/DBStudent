@@ -97,4 +97,12 @@
         android:layout_above="@+id/course"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Rows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/query"
+        android:layout_alignEnd="@+id/edit"
+        android:id="@+id/button" />
 </RelativeLayout>
