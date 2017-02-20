@@ -1,6 +1,7 @@
 package com.wanosoft.dbstudent;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
@@ -104,7 +105,13 @@ public class MainActivity extends AppCompatActivity{
         db.close();
     }
 
-    public void rows(View v){
-        //Llamar activity Layouts
+    public void staticRows(View v){
+        Intent i = new Intent(this, Layouts.class);
+        startActivity(i);
+    }
+
+    public void dinamicRows(View v){
+        Intent i = new Intent(this, DinamicTable.class);
+        startActivity(i);
     }
 }

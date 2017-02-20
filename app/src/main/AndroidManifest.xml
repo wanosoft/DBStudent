@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Layouts"></activity>
+        <activity android:name=".Layouts" />
+        <activity android:name=".DinamicTable"></activity>
     </application>
 
 </manifest>

@@ -25,10 +25,10 @@ public class Layouts extends AppCompatActivity {
 
         if(fila.moveToFirst()){
             while (fila.isAfterLast()== false){
-                textViewString += fila.getString(fila.getColumnIndex("id"));
-                textViewString += fila.getString(fila.getColumnIndex("name"));
-                textViewString += fila.getString(fila.getColumnIndex("course"));
-                textViewString += fila.getString(fila.getColumnIndex("year"))+"\n";
+                textViewString += " " + fila.getString(fila.getColumnIndex("id"));
+                textViewString += " " + fila.getString(fila.getColumnIndex("name"));
+                textViewString += " " + fila.getString(fila.getColumnIndex("course"));
+                textViewString += " " + fila.getString(fila.getColumnIndex("year"))+"\n";
                 fila.moveToNext();
             }
         } else {

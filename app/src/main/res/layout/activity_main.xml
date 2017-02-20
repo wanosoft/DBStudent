@@ -99,10 +99,20 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Rows"
+        android:text="Static"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/query"
         android:layout_alignEnd="@+id/edit"
-        android:id="@+id/button" />
+        android:id="@+id/staticB"
+        android:onClick="staticRows" />
+
+    <Button
+        android:text="Dinamic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/query"
+        android:layout_alignEnd="@+id/add"
+        android:id="@+id/button2"
+        android:onClick="dinamicRows"/>
 </RelativeLayout>
